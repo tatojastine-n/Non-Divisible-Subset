@@ -1,1 +1,2 @@
 # Non-Divisible-Subset
+This C# program finds the size of the largest subset of a list of integers `s` such that the sum of any two numbers in the subset is **not divisible by `k`**. The `nonDivisibleSubset` function counts how many numbers give each possible remainder when divided by `k`. It then constructs the subset by taking at most one number with remainder 0, and for each remainder `r`, it includes the maximum count between `r` and `k - r` to avoid divisible sums. The `Main` method reads input values, calls the function, and prints the result.
